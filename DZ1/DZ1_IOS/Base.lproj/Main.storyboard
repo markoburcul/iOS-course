@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DZ1_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ffx-jZ-tnF">
+                                <rect key="frame" x="145" y="582" width="124" height="41"/>
+                                <color key="backgroundColor" red="1" green="0.32915491730000002" blue="0.1654236993" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="24"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NqQ-lP-0Ir"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHm-l7-3LN" userLabel="Button1">
+                                <rect key="frame" x="62.000000000000007" y="264" width="91.666666666666686" height="80"/>
+                                <color key="backgroundColor" red="0.99862676859999999" green="0.32882869240000001" blue="0.16376724840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="jM3-cV-YiG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="titleButtonTapWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Erl-tw-FbG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvk-0I-p5z" userLabel="Button2">
+                                <rect key="frame" x="161" y="264" width="91" height="80"/>
+                                <color key="backgroundColor" red="0.99862676858901978" green="0.32882869243621826" blue="0.1637672483921051" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="titleButtonTapWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8l9-Gd-pVy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7E6-TD-fLM" userLabel="Button5">
+                                <rect key="frame" x="161" y="352" width="91" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.32915491730000002" blue="0.1654236993" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="titleButtonTapWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aVy-oq-pL3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJV-SG-xqH" userLabel="Button4">
+                                <rect key="frame" x="62" y="352" width="91" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.32915491730000002" blue="0.1654236993" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="titleButtonTapWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PPb-w8-Cpv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxF-Rv-0mf" userLabel="Button6">
+                                <rect key="frame" x="260.33333333333331" y="352" width="91.666666666666686" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.32915491730000002" blue="0.1654236993" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="titleButtonTapWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RND-Bp-9dC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHr-zX-XJt" userLabel="Button3">
+                                <rect key="frame" x="260.33333333333331" y="264" width="91.666666666666686" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.32915491730000002" blue="0.1654236993" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="titleButtonTapWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s44-xF-oH3"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Whd-n2-2z1">
+                                <rect key="frame" x="41.333333333333343" y="195.66666666666666" width="331.33333333333326" height="62.333333333333343"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="New game">
+                                        <attributes>
+                                            <font key="NSFont" size="24" name="AppleSymbols"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="31" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xh0-a2-hrA" userLabel="Button7">
+                                <rect key="frame" x="61.666666666666657" y="440" width="91" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.32915491730000002" blue="0.1654236993" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="titleButtonTapWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dmq-oe-8jg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="33" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jD8-eZ-kfU" userLabel="Button9">
+                                <rect key="frame" x="260.33333333333331" y="440" width="91.666666666666686" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.32915491730000002" blue="0.1654236993" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="titleButtonTapWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wxo-qL-018"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="P1P-Cr-nJm">
+                                <rect key="frame" x="7" y="75.666666666666686" width="400" height="120"/>
+                            </imageView>
+                            <button opaque="NO" tag="32" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJC-84-RGu" userLabel="Button8">
+                                <rect key="frame" x="161" y="440" width="91.333333333333314" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.32915491730000002" blue="0.1654236993" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="titleButtonTapWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d3B-rb-Hrf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xh0-a2-hrA" firstAttribute="top" secondItem="fJV-SG-xqH" secondAttribute="bottom" constant="8" id="1JO-dx-lJu"/>
+                            <constraint firstItem="hxF-Rv-0mf" firstAttribute="width" secondItem="NHm-l7-3LN" secondAttribute="width" id="1SE-bX-6lC"/>
+                            <constraint firstItem="Whd-n2-2z1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="centerX" multiplier="1.8" id="2tU-49-0aq"/>
+                            <constraint firstItem="jD8-eZ-kfU" firstAttribute="trailing" secondItem="hxF-Rv-0mf" secondAttribute="trailing" id="48a-rM-EO0"/>
+                            <constraint firstItem="jD8-eZ-kfU" firstAttribute="height" secondItem="NHm-l7-3LN" secondAttribute="height" id="4Ru-Sq-Sc2"/>
+                            <constraint firstItem="NHm-l7-3LN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="centerX" multiplier="0.3" id="5zI-HN-hvZ"/>
+                            <constraint firstItem="xh0-a2-hrA" firstAttribute="height" secondItem="NHm-l7-3LN" secondAttribute="height" id="81k-wE-ASd"/>
+                            <constraint firstItem="RHr-zX-XJt" firstAttribute="top" secondItem="NHm-l7-3LN" secondAttribute="top" id="9GM-gc-vUB"/>
+                            <constraint firstItem="7E6-TD-fLM" firstAttribute="bottom" secondItem="fJV-SG-xqH" secondAttribute="bottom" id="AUo-fy-S6O"/>
+                            <constraint firstItem="xvk-0I-p5z" firstAttribute="height" secondItem="NHm-l7-3LN" secondAttribute="height" id="Aq2-Gv-Q1N"/>
+                            <constraint firstItem="FJC-84-RGu" firstAttribute="width" secondItem="NHm-l7-3LN" secondAttribute="width" id="C6d-OR-tto"/>
+                            <constraint firstItem="FJC-84-RGu" firstAttribute="top" secondItem="xh0-a2-hrA" secondAttribute="top" id="Cus-zn-5cn"/>
+                            <constraint firstItem="xh0-a2-hrA" firstAttribute="width" secondItem="NHm-l7-3LN" secondAttribute="width" id="EW9-5C-kHs"/>
+                            <constraint firstItem="Ffx-jZ-tnF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="centerX" multiplier="1.3" id="Flz-la-jnz"/>
+                            <constraint firstItem="FJC-84-RGu" firstAttribute="height" secondItem="NHm-l7-3LN" secondAttribute="height" id="GcA-Wm-Qg0"/>
+                            <constraint firstItem="7E6-TD-fLM" firstAttribute="leading" secondItem="xvk-0I-p5z" secondAttribute="leading" id="IFF-Lv-lQP"/>
+                            <constraint firstItem="Ffx-jZ-tnF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="centerX" multiplier="0.7" id="MRQ-4x-BNO"/>
+                            <constraint firstItem="hxF-Rv-0mf" firstAttribute="trailing" secondItem="RHr-zX-XJt" secondAttribute="trailing" id="NUv-S5-Fat"/>
+                            <constraint firstItem="7E6-TD-fLM" firstAttribute="height" secondItem="NHm-l7-3LN" secondAttribute="height" id="NnU-ZJ-zXp"/>
+                            <constraint firstItem="FJC-84-RGu" firstAttribute="leading" secondItem="xvk-0I-p5z" secondAttribute="leading" id="Nok-Fx-TKy"/>
+                            <constraint firstItem="Whd-n2-2z1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="centerX" multiplier="0.2" id="NrV-VI-8uf"/>
+                            <constraint firstItem="7E6-TD-fLM" firstAttribute="width" secondItem="NHm-l7-3LN" secondAttribute="width" id="NtA-i9-xHU"/>
+                            <constraint firstItem="xvk-0I-p5z" firstAttribute="leading" secondItem="NHm-l7-3LN" secondAttribute="trailing" constant="8" id="QBk-qs-rjF"/>
+                            <constraint firstItem="hxF-Rv-0mf" firstAttribute="top" secondItem="RHr-zX-XJt" secondAttribute="bottom" constant="8" id="Rgb-9r-Skb"/>
+                            <constraint firstItem="NHm-l7-3LN" firstAttribute="top" secondItem="Whd-n2-2z1" secondAttribute="top" multiplier="1.35" id="Rza-o0-nG8"/>
+                            <constraint firstItem="fJV-SG-xqH" firstAttribute="height" secondItem="NHm-l7-3LN" secondAttribute="height" id="S9Z-7w-qfO"/>
+                            <constraint firstItem="xvk-0I-p5z" firstAttribute="width" secondItem="NHm-l7-3LN" secondAttribute="width" id="TQi-kS-EUK"/>
+                            <constraint firstItem="fJV-SG-xqH" firstAttribute="top" secondItem="NHm-l7-3LN" secondAttribute="bottom" constant="8" id="UaM-3O-E3Q"/>
+                            <constraint firstItem="xh0-a2-hrA" firstAttribute="leading" secondItem="NHm-l7-3LN" secondAttribute="leading" id="VtJ-ds-OC2"/>
+                            <constraint firstItem="fJV-SG-xqH" firstAttribute="leading" secondItem="NHm-l7-3LN" secondAttribute="leading" id="YC5-Rp-lIY"/>
+                            <constraint firstItem="xvk-0I-p5z" firstAttribute="bottom" secondItem="NHm-l7-3LN" secondAttribute="bottom" id="Yp6-hz-A6a"/>
+                            <constraint firstItem="RHr-zX-XJt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="centerX" multiplier="1.7" id="Zbu-7b-w6D"/>
+                            <constraint firstItem="RHr-zX-XJt" firstAttribute="height" secondItem="NHm-l7-3LN" secondAttribute="height" id="c3O-KQ-kGG"/>
+                            <constraint firstItem="hxF-Rv-0mf" firstAttribute="leading" secondItem="RHr-zX-XJt" secondAttribute="leading" id="e1H-nL-1wo"/>
+                            <constraint firstItem="Ffx-jZ-tnF" firstAttribute="top" secondItem="FJC-84-RGu" secondAttribute="bottom" constant="62" id="hLq-T6-NzU"/>
+                            <constraint firstItem="xvk-0I-p5z" firstAttribute="top" secondItem="NHm-l7-3LN" secondAttribute="top" id="hOF-kd-mnz"/>
+                            <constraint firstItem="jD8-eZ-kfU" firstAttribute="width" secondItem="NHm-l7-3LN" secondAttribute="width" id="jZv-pa-YhU"/>
+                            <constraint firstItem="RHr-zX-XJt" firstAttribute="leading" secondItem="xvk-0I-p5z" secondAttribute="trailing" constant="8" id="nhU-6d-icR"/>
+                            <constraint firstItem="Whd-n2-2z1" firstAttribute="top" secondItem="P1P-Cr-nJm" secondAttribute="top" constant="120" id="t2s-nI-s1X"/>
+                            <constraint firstItem="Whd-n2-2z1" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.6" id="tEv-pU-yd8"/>
+                            <constraint firstItem="fJV-SG-xqH" firstAttribute="width" secondItem="NHm-l7-3LN" secondAttribute="width" id="tIk-YG-iDr"/>
+                            <constraint firstItem="RHr-zX-XJt" firstAttribute="width" secondItem="NHm-l7-3LN" secondAttribute="width" id="tyf-AW-QGk"/>
+                            <constraint firstItem="FJC-84-RGu" firstAttribute="trailing" secondItem="xvk-0I-p5z" secondAttribute="trailing" id="vEB-Ob-qA4"/>
+                            <constraint firstItem="7E6-TD-fLM" firstAttribute="top" secondItem="fJV-SG-xqH" secondAttribute="top" id="wTH-tV-6ep"/>
+                            <constraint firstItem="hxF-Rv-0mf" firstAttribute="height" secondItem="NHm-l7-3LN" secondAttribute="height" id="xEt-3m-NmA"/>
+                            <constraint firstItem="P1P-Cr-nJm" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="y4e-qW-TD4"/>
+                            <constraint firstItem="P1P-Cr-nJm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.2" id="yxW-Df-Pyt"/>
+                            <constraint firstItem="jD8-eZ-kfU" firstAttribute="top" secondItem="hxF-Rv-0mf" secondAttribute="bottom" constant="8" id="zOJ-xl-SlQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="gameState" destination="Whd-n2-2z1" id="WCg-lq-vuz"/>
+                        <outlet property="resetButton" destination="Ffx-jZ-tnF" id="eoe-Lr-9Si"/>
+                        <outletCollection property="boardButtons" destination="NHm-l7-3LN" collectionClass="NSMutableArray" id="fiQ-3k-qFH"/>
+                        <outletCollection property="boardButtons" destination="xvk-0I-p5z" collectionClass="NSMutableArray" id="1uq-5d-LCy"/>
+                        <outletCollection property="boardButtons" destination="RHr-zX-XJt" collectionClass="NSMutableArray" id="aRK-2L-oEe"/>
+                        <outletCollection property="boardButtons" destination="fJV-SG-xqH" collectionClass="NSMutableArray" id="dvi-d1-WQO"/>
+                        <outletCollection property="boardButtons" destination="7E6-TD-fLM" collectionClass="NSMutableArray" id="eJa-AO-RDN"/>
+                        <outletCollection property="boardButtons" destination="hxF-Rv-0mf" collectionClass="NSMutableArray" id="aOQ-Q2-EEl"/>
+                        <outletCollection property="boardButtons" destination="xh0-a2-hrA" collectionClass="NSMutableArray" id="x2s-A8-1tj"/>
+                        <outletCollection property="boardButtons" destination="FJC-84-RGu" collectionClass="NSMutableArray" id="H6q-78-Za6"/>
+                        <outletCollection property="boardButtons" destination="jD8-eZ-kfU" collectionClass="NSMutableArray" id="lF7-Hg-rqg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="78.325123152709367"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="400" height="120"/>
+    </resources>
+</document>
