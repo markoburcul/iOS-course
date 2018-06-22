@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EditMovieController" customModule="DZ3_IOS" customModuleProvider="target">
+            <connections>
+                <outlet property="movieDescriptionView" destination="dfN-Qj-ndu" id="qCT-sQ-1YH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="RD7-kB-Mmt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dfN-Qj-ndu">
+                    <rect key="frame" x="37" y="145" width="300.5" height="272"/>
+                    <color key="backgroundColor" red="0.98865099487774744" green="0.97702999470191354" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kratki sadržaj filma" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acf-gP-DUs">
+                    <rect key="frame" x="41.5" y="75" width="292" height="56"/>
+                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="35"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.244620157" green="0.24551899250000001" blue="0.24671543439999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="dfN-Qj-ndu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="centerX" multiplier="0.2" id="FUG-O9-ACK"/>
+                <constraint firstItem="dfN-Qj-ndu" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="centerX" multiplier="1.8" id="VL7-VE-Aek"/>
+                <constraint firstItem="acf-gP-DUs" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="55" id="i6A-1r-gEd"/>
+                <constraint firstItem="acf-gP-DUs" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="m4U-5P-ikh"/>
+                <constraint firstItem="dfN-Qj-ndu" firstAttribute="top" secondItem="acf-gP-DUs" secondAttribute="top" constant="70" id="rTw-nb-hbI"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="dfN-Qj-ndu" secondAttribute="bottom" constant="250" id="t8r-dl-aLJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>
